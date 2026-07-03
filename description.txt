@@ -1,3 +1,0 @@
- Adds angled stairs to the Minetest Game.
-https://forum.minetest.net/viewtopic.php?f=9&t=14801
-See README.txt for a little more information (very little...)
