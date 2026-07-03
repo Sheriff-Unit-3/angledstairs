@@ -7,7 +7,7 @@ angledstairs = {}
 
 function angledstairs.register_angled_stair(subname, recipeitem, groups, images, description, sounds)
 	groups.angledstair = 1
-	minetest.register_node(":angledstairs:angled_stair_right" .. subname, {
+	core.register_node(":angledstairs:angled_stair_right" .. subname, {
 		description = description,
 		drawtype = "mesh",
 		mesh = "angled_stairR.obj",
@@ -41,7 +41,7 @@ function angledstairs.register_angled_stair(subname, recipeitem, groups, images,
 		}
 	})
 
-	minetest.register_node(":angledstairs:angled_stair_left" .. subname, {
+	core.register_node(":angledstairs:angled_stair_left" .. subname, {
 		description = description,
 		drawtype = "mesh",
 		mesh = "angled_stairL.obj",
@@ -81,7 +81,7 @@ end
 
 function angledstairs.register_angled_slab(subname, recipeitem, groups, images, description, sounds)
 	groups.angledslab = 1
-	minetest.register_node(":angledstairs:angled_slab_right" .. subname, {
+	core.register_node(":angledstairs:angled_slab_right" .. subname, {
 		description = description,
 		drawtype = "mesh",
 		mesh = "angled_slabR.obj",
@@ -119,7 +119,7 @@ function angledstairs.register_angled_slab(subname, recipeitem, groups, images, 
 		},
 	})
 
-	minetest.register_node(":angledstairs:angled_slab_left" .. subname, {
+	core.register_node(":angledstairs:angled_slab_left" .. subname, {
 		description = description,
 		drawtype = "mesh",
 		mesh = "angled_slabL.obj",
