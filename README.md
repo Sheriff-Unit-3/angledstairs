@@ -1,6 +1,7 @@
 # Angled Stairs
 
 [![ContentDB](https://content.luanti.org/packages/TumeniNodes/angledstairs/shields/downloads/)](https://content.luanti.org/packages/TumeniNodes/angledstairs/)
+
 ![Preview](/screenshot.png)
 
 Angled stairs are useful for placing stairs at angled elevations, as well as to build a useable spiral-like staircase.
